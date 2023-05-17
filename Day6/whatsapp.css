@@ -1,0 +1,52 @@
+.body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 500px;
+    width: 700px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+
+#msgId{
+    width: 600px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 20px;
+    color: black;
+    font-size: large;
+}
+
+#btnId{
+    width: 150px;
+    height:50px;
+    margin: 5px;
+    border-radius: 20px;
+    background: green;
+    color: white;
+    font-size: large;
+}
+
+#divId{
+    overflow-y: scroll;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    scroll-behavior: auto;
+    border-bottom: 2px solid;
+    height: inherit;
+}
+
+.input-container{
+    display: flex; 
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
